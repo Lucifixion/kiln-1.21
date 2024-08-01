@@ -1,0 +1,12 @@
+{
+    "type": "ember_kiln:kiln",
+    "category": "misc",
+    "cookingtime": 100,
+    "experience": 0.1,
+    "ingredient": {
+        "item": "minecraft:netherrack"
+    },
+    "result": {
+        "id": "minecraft:nether_brick"
+    }
+}

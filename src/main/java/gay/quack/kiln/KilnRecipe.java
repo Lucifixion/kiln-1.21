@@ -13,6 +13,11 @@ public class KilnRecipe extends AbstractCookingRecipe {
     }
 
     @Override
+    public ItemStack createIcon() {
+        return new ItemStack(KilnMain.KILN_ITEM);
+    }
+
+    @Override
     public RecipeSerializer<KilnRecipe> getSerializer() {
         return KilnMain.KILN_RECIPE_SERIALIZER;
     }
